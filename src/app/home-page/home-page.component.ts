@@ -2,13 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { bindCallback } from 'rxjs';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'app-home-page',
+  templateUrl: './home-page.component.html',
+  styleUrls: ['./home-page.component.css']
 })
-
-export class AppComponent implements OnInit {
-  title = 'Personal-Site-II';
+export class HomePageComponent implements OnInit {
 
   myStyle: object = {};
   myParams: object = {};
@@ -45,5 +43,4 @@ export class AppComponent implements OnInit {
       }
   };
   }
-
 }
