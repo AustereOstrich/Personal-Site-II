@@ -8,5 +8,5 @@ import { bindCallback } from 'rxjs';
 })
 
 export class AppComponent {
-  
+
 }
