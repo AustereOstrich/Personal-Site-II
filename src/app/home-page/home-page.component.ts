@@ -23,7 +23,8 @@ export class HomePageComponent implements OnInit {
           left: 0,
           right: 0,
           bottom: 0,
-          'background-color': '#4d4c4a'
+          'background-color': '#4d4c4a',
+          margin: 0
       };
 
       this.myParams = {
