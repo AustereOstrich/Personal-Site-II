@@ -1,8 +1,13 @@
 .card {
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 6%;
+    padding-right: 6%;
 }
 
 .techBadge {
     height: 100px;
+}
+
+.parent-div {
+    margin-top: 5%;
+    margin-bottom: 10%;
 }

@@ -5,13 +5,15 @@ import { AppComponent } from './app.component';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { ContactFormComponent } from './contact-form/contact-form.component';
+import { FamiliarTechComponent } from './familiar-tech/familiar-tech.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AboutMeComponent,
     HomePageComponent,
-    ContactFormComponent
+    ContactFormComponent,
+    FamiliarTechComponent
   ],
   imports: [
     BrowserModule,
