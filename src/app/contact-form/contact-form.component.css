@@ -6,3 +6,7 @@ textarea, input {
 .center-vertical {
     vertical-align: middle;
 }
+
+.parent-div {
+    background-color: #A3C6C4;
+}
