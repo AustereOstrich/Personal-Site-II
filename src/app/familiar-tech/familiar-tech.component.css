@@ -1,7 +1,15 @@
 img {
-    height: 100px;
+    height: 50px;
+    margin-left: 10px;
 }
 
 .parent-div {
     margin-top: 10%;
+}
+
+.tech-badge-container {
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    text-align: center;
 }

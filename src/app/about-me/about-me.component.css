@@ -1,5 +1,6 @@
 nav {
     background-color: #354649;
+    margin-top: -15px;
 }
 
 li {
@@ -8,17 +9,27 @@ li {
     font-size: 1.5rem;
 }
 
+.about-me-card {
+    width: 200px;
+}
+
 .card {
     padding-left: 6%;
     padding-right: 6%;
+
 }
 
-.techBadge {
-    height: 100px;
+.card-img-top {
+    width: 70%;
+    align-self: center;
+}
+
+.header-bar {
+    background-color: black;
 }
 
 .parent-div {
-    margin-top: 5%;
+    /* margin-top: 5%; */
     margin-bottom: 10%;
     /* background-color: #E0E7E9; */
 }
