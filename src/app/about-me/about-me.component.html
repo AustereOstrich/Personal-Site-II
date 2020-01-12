@@ -32,7 +32,7 @@
               <p class="card-text">A tireless learner, I found a passion for developing software while putting off studying for the MCAT and haven't looked back.</p>
             </div>
             <div class="card-footer bg-white border-0">
-              <a href="#" class="btn btn-primary">More</a>
+              <button type="button" class="btn btn-primary stretched-link" data-toggle="modal" data-target="#moreAboutMe">More</button>
             </div>
           </div>
           <div class="card col-sm-4 border-0">
@@ -43,7 +43,7 @@
               <p class="card-text">I've got a bachelor's degree in (pre-med) biology, and I'm working toward a master's degree in Software Engineering.</p>
             </div>
             <div class="card-footer bg-white border-0">
-              <a href="#" class="btn btn-primary">More</a>
+              <button type="button" class="btn btn-primary stretched-link" data-toggle="modal" data-target="#moreAboutMyEducation">More</button>
             </div>
           </div>
           <div class="card col-sm-4 border-0">
@@ -54,10 +54,68 @@
               <p class="card-text">I'm currently working at a regional bank supporting their IBM iSeries core processing system.</p>
             </div>
             <div class="card-footer bg-white border-0">
-              <a href="#" class="btn btn-primary">More</a>
+              <button type="button" class="btn btn-primary stretched-link" data-toggle="modal" data-target="#moreAboutMyWork">More</button>
             </div>
           </div>
     </div>
 
     <app-familiar-tech></app-familiar-tech>
+</div>
+
+
+<div class="modal fade" id="moreAboutMe" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">More About Me</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        *Here is where I shall write more about myself.*
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="moreAboutMyEducation" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Education</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        *Here is where I shall write more about my education.*
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="moreAboutMyWork" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Work History</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        *Here is where I shall write more about my work history.*
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
 </div>
