@@ -23,7 +23,7 @@ export class HomePageComponent implements OnInit {
           left: 0,
           right: 0,
           bottom: 0,
-          'background-color': '#354649',
+          'background-color': '#343d46',
           margin: 0
       };
 

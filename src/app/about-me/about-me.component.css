@@ -1,12 +1,16 @@
 nav {
-    background-color: #354649;
-    margin-top: -15px;
+    background-color: #4f5b66;
+    margin-top: -20px;
 }
 
 li {
     margin-left: 50px;
     margin-right: 50px;
     font-size: 1.5rem;
+}
+
+li a {
+    color: white;
 }
 
 .about-me-card {
@@ -16,12 +20,16 @@ li {
 .card {
     padding-left: 6%;
     padding-right: 6%;
-
+    margin-bottom: 60px;
 }
 
 .card-img-top {
     width: 70%;
     align-self: center;
+}
+
+.work-img {
+    margin: auto;
 }
 
 .header-bar {
