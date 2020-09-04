@@ -3,7 +3,7 @@
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse ml-5" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
+    <ul class="navbar-nav ml-auto">
       <li class="nav-item">
         <a class="nav-link" href="#" style="color: white">Home</a>
       </li>
@@ -32,8 +32,10 @@
               <p class="card-text">A tireless learner, I found a passion for developing software while putting off studying for the MCAT and haven't looked back.</p>
             </div>
             <div class="card-footer bg-white border-0">
-              <a href="#" class="btn btn-primary">More</a>
+              <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#aboutMeModal">More</a>
             </div>
+          <app-about-me-modal></app-about-me-modal>
+
           </div>
           <div class="card col-md-4 border-0">
             <img src="/assets/Brandeis_seal_blue_CMYK.png" class="card-img-top" alt="...">
