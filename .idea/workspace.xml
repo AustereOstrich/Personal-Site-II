@@ -1,9 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:npm_and_yarn" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca357a2e-c86b-427a-ada5-876fdd049a5d" name="Default Changelist" comment="">
+    <list default="true" id="ca357a2e-c86b-427a-ada5-876fdd049a5d" name="Default Changelist" comment="Added About Me modals (with preliminary info).">
+      <change afterPath="$PROJECT_DIR$/src/app/Modals/about-school-modal/about-school-modal.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/Modals/about-school-modal/about-school-modal.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/Modals/about-school-modal/about-school-modal.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/Modals/about-school-modal/about-school-modal.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/Modals/about-work-modal/about-work-modal.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/Modals/about-work-modal/about-work-modal.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/Modals/about-work-modal/about-work-modal.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/Modals/about-work-modal/about-work-modal.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Modals/about-me-modal/about-me-modal.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Modals/about-me-modal/about-me-modal.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/about-me/about-me.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/about-me/about-me.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
     </list>
@@ -27,7 +67,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -74,11 +114,27 @@
       <option name="presentableId" value="Default" />
       <updated>1599178003558</updated>
       <workItem from="1599178005763" duration="1419000" />
+      <workItem from="1599224533999" duration="3232000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added About Me modals (with preliminary info)." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added About Me modals (with preliminary info)." />
   </component>
   <component name="WindowStateProjectService">
     <state width="1379" height="191" key="GridCell.Tab.0.bottom" timestamp="1599180277896">
