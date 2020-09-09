@@ -4,13 +4,29 @@
             <h1 class="text-center mt-5 text-white">Contact</h1>
             <h5 class="text-center mt-4 text-white">Have a question or want to work together?</h5>
         </div>
-        <div class="container-fluid">
-            <div class="my-5 form-group">
-                <textarea class="form-control" id="contactFormNameBox" rows="1" placeholder="Your Name"></textarea>
-                <input class="form-control" type="email" id="contactFormEmailInput" placeholder="Your Email">
-                <textarea class="form-control" id="contactFormMessageBox" rows="3" placeholder="Your message..."></textarea>
-                <input type="submit" class="btn btn-light">
+
+        <form #contactForm="ngForm" class="form-group my-5" (ngSubmit)="onSubmit(contactForm)">
+            <input type="text" placeholder="Your Name..." required class="form-control"
+                    [(ngModel)]="contactName" #contactNameInput="ngModel">
+            <div *ngIf="!contactNameInput.valid && contactNameInput.touched">
+                Please enter your name.
             </div>
-        </div>
+
+            <input type="email" placeholder="Your Email..." required class="form-control"
+                    [(ngModel)]="contactEmail" #contactEmailInput="ngModel">
+            <div *ngIf="!contactEmailInput.valid && contactNameInput.touched">
+                Please enter a valid email address.
+            </div>
+
+            <textarea class="form-control" rows="3" placeholder="Your message..." required
+                      [(ngModel)]="contactMessage" #contactMessageInput="ngModel"></textarea>
+            <div *ngIf="!contactEmailInput.valid && contactNameInput.touched">
+                Please enter a valid email address.
+            </div>
+
+            <button type="submit" class="btn btn-light" [disabled]="!contactForm.form.valid">
+                Submit
+            </button>
+        </form>
     </div>
 </div>

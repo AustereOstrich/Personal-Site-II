@@ -7,6 +7,7 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { ContactFormComponent } from './contact-form/contact-form.component';
 import { FamiliarTechComponent } from './familiar-tech/familiar-tech.component';
 import { AboutMeModalComponent } from './Modals/about-me-modal/about-me-modal.component';
+import {FormsModule} from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -17,10 +18,11 @@ import { AboutMeModalComponent } from './Modals/about-me-modal/about-me-modal.co
     FamiliarTechComponent,
     AboutMeModalComponent
   ],
-  imports: [
-    BrowserModule,
-    ParticlesModule
-  ],
+    imports: [
+        BrowserModule,
+        ParticlesModule,
+        FormsModule
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })
