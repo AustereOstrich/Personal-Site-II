@@ -9,6 +9,8 @@ import { FamiliarTechComponent } from './familiar-tech/familiar-tech.component';
 import { AboutMeModalComponent } from './Modals/about-me-modal/about-me-modal.component';
 import { AboutSchoolModalComponent } from './Modals/about-school-modal/about-school-modal.component';
 import { AboutWorkModalComponent } from './Modals/about-work-modal/about-work-modal.component';
+import {FormsModule} from '@angular/forms';
+import {ReactiveFormsModule} from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -21,10 +23,12 @@ import { AboutWorkModalComponent } from './Modals/about-work-modal/about-work-mo
     AboutSchoolModalComponent,
     AboutWorkModalComponent
   ],
-  imports: [
-    BrowserModule,
-    ParticlesModule
-  ],
+    imports: [
+        BrowserModule,
+        ParticlesModule,
+        FormsModule,
+        ReactiveFormsModule,
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })

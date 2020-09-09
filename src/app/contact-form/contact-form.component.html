@@ -5,26 +5,26 @@
             <h5 class="text-center mt-4 text-white">Have a question or want to work together?</h5>
         </div>
 
-        <form #contactForm="ngForm" class="form-group my-5" (ngSubmit)="onSubmit(contactForm)">
-            <input type="text" placeholder="Your Name..." required class="form-control"
-                    [(ngModel)]="contactName" #contactNameInput="ngModel">
-            <div *ngIf="!contactNameInput.valid && contactNameInput.touched">
-                Please enter your name.
+        <form [formGroup]="contactForm" class="form-group my-5" (ngSubmit)="onSubmit()">
+            <input type="text" class="form-control" placeholder="Your name..." required
+                    formControlName="contactName">
+            <div *ngIf="!contactName.valid && contactName.touched" class="alert alert-danger">
+                Who are you...?
             </div>
 
             <input type="email" placeholder="Your Email..." required class="form-control"
-                    [(ngModel)]="contactEmail" #contactEmailInput="ngModel">
-            <div *ngIf="!contactEmailInput.valid && contactNameInput.touched">
-                Please enter a valid email address.
+                    formControlName="contactEmail">
+            <div *ngIf="!contactEmail.valid && contactEmail.touched" class="alert alert-danger">
+                Where can I find you on this vast inter-web...? (Need a valid email address)
             </div>
 
             <textarea class="form-control" rows="3" placeholder="Your message..." required
-                      [(ngModel)]="contactMessage" #contactMessageInput="ngModel"></textarea>
-            <div *ngIf="!contactEmailInput.valid && contactNameInput.touched">
-                Please enter a valid email address.
+                      formControlName="contactMessage"></textarea>
+            <div *ngIf="!contactMessage.valid && contactMessage.touched" class="alert alert-danger">
+                Didn't you want to say something...?
             </div>
 
-            <button type="submit" class="btn btn-light" [disabled]="!contactForm.form.valid">
+            <button type="submit" class="btn btn-light" [disabled]="contactForm.invalid">
                 Submit
             </button>
         </form>
