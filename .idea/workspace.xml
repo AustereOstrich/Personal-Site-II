@@ -1,43 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:npm_and_yarn" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
-    <select />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="ca357a2e-c86b-427a-ada5-876fdd049a5d" name="Default Changelist" comment="Adding files.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="ca357a2e-c86b-427a-ada5-876fdd049a5d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/about-me/about-me.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/about-me/about-me.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/contact-form/contact-form.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/contact-form/contact-form.component.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/contact-form/contact-form.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/contact-form/contact-form.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/contact-form/contact-form.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/contact-form/contact-form.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +27,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -106,45 +74,11 @@
       <option name="presentableId" value="Default" />
       <updated>1599178003558</updated>
       <workItem from="1599178005763" duration="1419000" />
-      <workItem from="1599223922201" duration="687000" />
-      <workItem from="1599489459262" duration="4315000" />
     </task>
-    <task id="LOCAL-00001" summary="Added 'About Me' modal.">
-      <created>1599223947684</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1599223947684</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Adding files.">
-      <created>1599224002065</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1599224002065</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added 'About Me' modal." />
-    <MESSAGE value="Adding files." />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding files." />
   </component>
   <component name="WindowStateProjectService">
     <state width="1379" height="191" key="GridCell.Tab.0.bottom" timestamp="1599180277896">
@@ -163,9 +97,5 @@
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state width="1379" height="191" key="GridCell.Tab.0.right/0.23.1440.797@0.23.1440.797" timestamp="1599180277896" />
-    <state x="320" y="161" key="Vcs.Push.Dialog.v2" timestamp="1599224007583">
-      <screen x="0" y="23" width="1440" height="797" />
-    </state>
-    <state x="320" y="161" key="Vcs.Push.Dialog.v2/0.23.1440.797@0.23.1440.797" timestamp="1599224007583" />
   </component>
 </project>
